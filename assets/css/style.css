@@ -297,3 +297,21 @@ input[type="reset"] {
     scroll-behavior: auto;
     overflow: hidden;
 }
+
+/*Footer */
+
+.social-networks {
+    
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: 20px;
+    padding: 2%;
+    color: #3a3298;
+}
