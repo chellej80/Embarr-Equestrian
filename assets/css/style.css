@@ -118,7 +118,7 @@ h1 h3 {
     top: -5px;
 }
 
-/* menu btn */
+/* menu button */
 
 .header .menu-btn {
     display: none;
@@ -145,26 +145,7 @@ h1 h3 {
     top: 0;
 }
 
-/* min 838px */
 
-@media (min-width: 838px) {
-    .header li {
-        float: right;
-    }
-    .header li a {
-        padding: 20px 30px;
-    }
-
-    .header .menu {
-        clear: none;
-
-        max-height: none;
-    }
-
-    .header .menu-icon {
-        display: none;
-    }
-}
 
 
 /* hero image and cover text */
@@ -481,4 +462,21 @@ input[type="reset"] {
     }
 }
 
+/*cover text responsivnes */
+
+@media (max-width: 768px) {
+    #cover-text, #cover-text-pages {
+        max-width: 300px !important;
+        left: 10px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 950px) {
+    #cover-text, #cover-text-pages {
+        max-width: 450px !important;
+        left: 25px;
+        height: auto;
+    }
+}
 
