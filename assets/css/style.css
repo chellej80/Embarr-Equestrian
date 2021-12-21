@@ -7,8 +7,7 @@
     border: none;
 }
 
-body,
-header {
+body {
     font-family: Merriweather, Oswald;
     font-weight: 300;
     color: #002980;
@@ -16,15 +15,24 @@ header {
 
 /* Logo & header styles */
 
+
+h1, h3 {
+    color: #00008b;
+}
+
 .header {
     background-color: #fff;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
     position: static;
     width: 100%;
     z-index: 3;
+    font-family: Merriweather, Oswald;
+    font-weight: 300;
+    color: #002980;
        
     
 }
+
 
 .header ul {
     margin: 0;
@@ -61,12 +69,11 @@ header {
     clear: both;
     max-height: 0;
     transition: max-height 0.2s ease-out;
-    
-    
+   
     
 }
 
-/* menu icon */
+/* menu icon code Ref: https://codepen.io/mutedblues/pen/MmPNPG */
 
 .header .menu-icon {
     cursor: pointer;
