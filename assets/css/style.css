@@ -8,17 +8,21 @@
 }
 
 body,
-header, header li {
+.header {
     font-family: Merriweather, Oswald;
     font-weight: 300;
-    color: #00008b;
+    color: #002980;
 }
 
+a {
+    
+    color: inherit;
+}
 /* Logo & header styles */
 
 
 h1 h3 {
-    color: #00008b;
+    color: #002980;
 }
 
 .header {
@@ -58,9 +62,7 @@ h1 h3 {
     font-size: 2em;
     padding: 10px 20px;
     text-decoration: none;
-    font-family: Merriweather, Oswald;
-    font-weight: 300;
-    color: #002980;
+    
        
 }
 
@@ -319,5 +321,5 @@ input[type="reset"] {
     font-size: 150%;
     margin: 20px;
     padding: 2%;
-    color: #3a3298;
+    color: #002980;
 }
