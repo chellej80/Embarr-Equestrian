@@ -234,7 +234,7 @@ ol {
 
     display: block;
   list-style-type: circle;
-  margin-top: 1em; git
+  margin-top: 1em; 
   margin-bottom: 1em;
   margin-left: 0;
   margin-right: 0;
@@ -455,4 +455,30 @@ input[type="reset"] {
     padding: 2%;
     color: #002980;
 }
+
+
+/*media queries */
+
+
+/* Header min screen size 838px - keeps Menu items remaining as text until screen size reduced*/
+
+@media (min-width: 838px) {
+    .header li {
+        float: right;
+    }
+    .header li a {
+        padding: 20px 30px;
+    }
+
+    .header .menu {
+        clear: none;
+
+        max-height: none;
+    }
+
+    .header .menu-icon {
+        display: none;
+    }
+}
+
 
