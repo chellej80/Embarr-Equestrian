@@ -184,6 +184,12 @@ h1 h3 {
     background: url("../images/hero_image_horse.jpg") no-repeat center center;
 }
 
+#hero-image-child {
+    height: 550px;
+    width: 100%;
+    background: no-repeat center center;
+}
+
 .img-opacity {
     opacity: 0.6;
 }
@@ -209,6 +215,7 @@ h1 h3 {
 #cover-text-pages {
     color: #002980;
     font-size: 100%;
+    
     font-family: Merriweather, Oswald;
     /*text-transform: uppercase;*/
     letter-spacing: 3px;
@@ -221,6 +228,17 @@ h1 h3 {
     position: absolute;
     background-color:  rgba(23,67,88,0.1);
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+ol {
+
+    display: block;
+  list-style-type: circle;
+  margin-top: 1em; git
+  margin-bottom: 1em;
+  margin-left: 0;
+  margin-right: 0;
+  padding-left: 40px;
 }
 
 /*flex container for three images on Index page */
