@@ -480,3 +480,25 @@ input[type="reset"] {
     }
 }
 
+
+/* Responsive layout for index images- makes a one column layout */
+@media (max-width: 800px) {
+    #flex-container,
+    #flex-container-images {
+        flex-direction: column;
+    }
+}
+
+/* Responsive layout for all images - makes a one column layout  */
+@media (max-width: 800px) {
+    .image-column,
+    /*.image-column-child,*/
+    #hero-image,
+    #hero-image-child {
+        width: 100%;
+        margin: auto;
+        margin-bottom: 10px;
+        
+    }
+}
+
