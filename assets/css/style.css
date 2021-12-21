@@ -7,10 +7,11 @@
     border: none;
 }
 
-body header {
+body,
+header, header li {
     font-family: Merriweather, Oswald;
     font-weight: 300;
-    color: #002980;
+    color: #00008b;
 }
 
 /* Logo & header styles */
@@ -26,10 +27,7 @@ h1 h3 {
     position: static;
     width: 100%;
     z-index: 3;
-    /*font-family: Merriweather, Oswald;
-    font-weight: 300;
-    color: #002980;*/
-       
+    
     
 }
 
@@ -60,6 +58,10 @@ h1 h3 {
     font-size: 2em;
     padding: 10px 20px;
     text-decoration: none;
+    font-family: Merriweather, Oswald;
+    font-weight: 300;
+    color: #002980;
+       
 }
 
 
@@ -254,9 +256,9 @@ h1 h3 {
 }
 
 .info-container {
-    font-family: Merriweather, Oswald;
+    /*font-family: Merriweather, Oswald;*/
     border-radius: 5px;
-    background: url("../images/horse_field_crop.jpg") no-repeat center center;
+    background: url("../images/field_crop.jpg") no-repeat center center;
     
     margin: 45px;
     width: 50%;
