@@ -1,0 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body,
+header {
+    font-family: Merriweather, Oswald;
+    font-weight: 300;
+    color: #002980;
+}
