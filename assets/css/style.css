@@ -256,7 +256,7 @@ h1 h3 {
 .info-container {
     font-family: Merriweather, Oswald;
     border-radius: 5px;
-    /*background: url("../images/horse_field_crop_3.jpg") no-repeat center center;*/
+    background: url("../images/horse_field_crop.jpg") no-repeat center center;
     
     margin: 45px;
     width: 50%;
