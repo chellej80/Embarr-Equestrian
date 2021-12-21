@@ -10,3 +10,20 @@ header {
     font-weight: 300;
     color: #002980;
 }
+
+/* hero image and cover text */
+
+#hero-outer {
+    display: flex;
+    /*flex-direction: row wrap;*/
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    
+}
+
+#hero-image {
+    height: 550px;
+    width: 100%;
+    background: url("../images/hero_image_horse.jpg") no-repeat center center;
+}
