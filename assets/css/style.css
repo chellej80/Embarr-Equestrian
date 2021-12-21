@@ -412,6 +412,21 @@ input[type="reset"] {
     
 }
 
+#testimonial-txt {
+    color: #002980;
+    font-size: 85%;
+    font-family: Merriweather, Oswald;
+    width: 40%;
+    font-weight: bold;
+    margin: 5px;
+    padding: 10px;
+    /*background-color:  rgba(23,67,88,0.1);*/
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    position: absolute;
+    letter-spacing: 2px;
+    font-style:italic;
+}
+
 /*Footer */
 
 .social-networks {
