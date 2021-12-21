@@ -87,3 +87,24 @@ header {
     background-color:  rgba(23,67,88,0.1);
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
+
+/*flex container for three images on Index page */
+
+#flex-container-images {
+    display: flex;
+    /*flex-direction: row wrap;*/
+    margin: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.image-column {
+    width: 33.33%;
+    position: relative;
+    overflow: hidden;
+    background-color: rgba(0, 0, 0, 0.5);
+    
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    margin: 10px;
+    cursor: pointer;
+}
