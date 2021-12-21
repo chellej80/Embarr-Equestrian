@@ -363,13 +363,13 @@ img {vertical-align: middle;}
 }
 
 .info-container {
-    /*font-family: Merriweather, Oswald;*/
+    font-family: Merriweather, Oswald;
     border-radius: 5px;
     background: url("../images/field_crop.jpg") no-repeat center center;
     
     margin: 45px;
     width: 50%;
-    height: 500px;
+    height: 520px;
     padding: 25px;
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
@@ -412,6 +412,17 @@ input[type="reset"] {
     
 }
 
+.gmap_canvas {
+    position: relative;
+    height: 85%;
+    width: 100%;
+    padding: 20px;
+    border:rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    scroll-behavior: auto;
+    overflow: hidden;
+    
+}
 #testimonial-txt {
     color: #002980;
     font-size: 85%;
