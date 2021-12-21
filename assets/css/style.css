@@ -242,7 +242,13 @@ h1, h2,h3 {
     position: absolute;
 }
 
-/*Container for two information columns on index page - Form & Location Map*/
+/*Flex Container & info containers for the two information columns on index page - Form & Location Map*/
+
+#flex-container {
+    display: flex;
+    /*flex-direction: row wrap;*/
+}
+
 .info-container {
     font-family: Merriweather, Oswald;
     border-radius: 5px;
