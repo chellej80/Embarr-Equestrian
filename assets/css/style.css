@@ -216,6 +216,10 @@ h1 h3 {
     cursor: pointer;
 }
 
+.pop:hover { 
+    transform: scale(1.1); 
+}
+
 #image-1-text {
     color: #fff;
     font-size: 120%;
