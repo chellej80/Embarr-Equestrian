@@ -85,7 +85,21 @@
 <span class="dot" onclick="currentSlide(2)"></span>
 
 </div>
+</section>
 
+<section class="row">
+    <div id="flex-container">
+        <div class="info-container">
+            <h2><i class="fab fa-youtube-square"></i><a id="contact-us"></a> Tour of the Yard</a></h2><br>
+            <iframe class="gmap_canvas" width="560" height="315" src="https://www.youtube.com/embed/vzRq-9MPEeo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        </div>
+
+<div class="info-container ">
+    <h2><i class="fas fa-phone-square-alt"></i><a id="contact-us"></a> Testimonials</a></h2><br>
+    <p>blaalnnlnlsvnlksdnvlsnvln</p>
+</div>
+</section>
         <footer class="row">
 
             <ul class="social-networks">
@@ -106,36 +120,13 @@
         
     <!--Slideshow script -->
     <script>
-        var slideIndex = 1;
-        showSlides(slideIndex);
         
-        function plusSlides(n) {
-          showSlides(slideIndex += n);
-        }
-        
-        function currentSlide(n) {
-          showSlides(slideIndex = n);
-        }
-        
-        function showSlides(n) {
-          var i;
-          var slides = document.getElementsByClassName("mySlides");
-          var dots = document.getElementsByClassName("dot");
-          if (n > slides.length) {slideIndex = 1}    
-          if (n < 1) {slideIndex = slides.length}
-          for (i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";  
-          }
-          for (i = 0; i < dots.length; i++) {
-              dots[i].className = dots[i].className.replace(" active", "");
-          }
-          slides[slideIndex-1].style.display = "block";  
-          dots[slideIndex-1].className += " active";
-        }
         </script>
     <!-- font awesome script-->
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
 
+    <!--JS script for Image gallery-->
+    <script src="assets/main.js"></script>
     
     
     </body>
