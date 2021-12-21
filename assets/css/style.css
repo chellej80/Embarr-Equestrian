@@ -7,7 +7,7 @@
     border: none;
 }
 
-body {
+body header {
     font-family: Merriweather, Oswald;
     font-weight: 300;
     color: #002980;
@@ -16,7 +16,7 @@ body {
 /* Logo & header styles */
 
 
-h1, h2,h3 {
+h1 h3 {
     color: #00008b;
 }
 
@@ -26,9 +26,9 @@ h1, h2,h3 {
     position: static;
     width: 100%;
     z-index: 3;
-    font-family: Merriweather, Oswald;
+    /*font-family: Merriweather, Oswald;
     font-weight: 300;
-    color: #002980;
+    color: #002980;*/
        
     
 }
