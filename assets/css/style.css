@@ -16,7 +16,7 @@ body {
 /* Logo & header styles */
 
 
-h1, h3 {
+h1, h2,h3 {
     color: #00008b;
 }
 
@@ -240,4 +240,17 @@ h1, h3 {
     padding: 20px;
     left: 0;
     position: absolute;
+}
+
+/*Container for two information columns on index page - Form & Location Map
+.info-container {
+    font-family: Merriweather, Oswald;
+    border-radius: 5px;
+    background: url("../images/horse_field_crop_3.jpg") no-repeat center center;
+    
+    margin: 45px;
+    width: 50%;
+    height: 520px;
+    padding: 25px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;*/
 }
