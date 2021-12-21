@@ -18,6 +18,7 @@ a {
     
     color: inherit;
 }
+
 /* Logo & header styles */
 
 
@@ -53,7 +54,7 @@ h1 h3 {
 
 .header li a:hover,
 .header .menu-btn:hover {
-    background-color: #9ecc20;
+    background-color: #d6f185;
 }
 
 .header .logo {
