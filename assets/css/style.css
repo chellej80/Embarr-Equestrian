@@ -184,6 +184,10 @@ h1 h3 {
     background: url("../images/hero_image_horse.jpg") no-repeat center center;
 }
 
+.img-opacity {
+    opacity: 0.6;
+}
+
 #cover-text {
     color: #002980;
     font-size: 100%;
