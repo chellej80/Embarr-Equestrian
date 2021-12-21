@@ -265,7 +265,7 @@ h1 h3 {
     
     margin: 45px;
     width: 50%;
-    height: 520px;
+    height: 480px;
     padding: 25px;
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
@@ -299,12 +299,13 @@ input[type="reset"] {
 .gmap_canvas {
     position: relative;
     height: 80%;
-    width: 100%;
-    padding: 10px;
+    width: 95%;
+    padding: 20px;
     border:rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     scroll-behavior: auto;
     overflow: hidden;
+    
 }
 
 /*Footer */
