@@ -550,10 +550,15 @@ article {
         width: 100%;
         margin:0;
         margin-bottom: 20px;
-        padding-left: 40px;
-        
     }
 }
+
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+
+    .info-container {
+        margin-bottom: 20px;
+        padding-left: 40px;
+    }
 
 @media only screen and (min-width: 768px) and (max-width: 800px) {
     form, .gmap_canvas {
