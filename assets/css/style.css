@@ -342,13 +342,22 @@ img {
     position: relative;
 }
 
-
+.info-container h2 {
+    margin: 10px;
+}
 
 /*style the form */
+
+form {
+    margin: 0px 10px 10px 10px;
+}
+
+
+
 input[type="text"],
 select,
 textarea {
-    width: 100%;
+    width: 95%;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -374,11 +383,12 @@ input[type="reset"] {
     position: relative;
     height: 90%;
     width: 100%;
-    padding: 20px 15px 20px 20px;
+    padding: 10px 30px 30px 25px;
     border: rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     scroll-behavior: auto;
-    overflow: hidden;
+    
+    
 }
 
 
