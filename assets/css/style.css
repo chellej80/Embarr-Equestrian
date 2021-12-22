@@ -339,6 +339,7 @@ img {
     height: 520px;
     padding: 25px;
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    position: relative;
 }
 
 
@@ -406,7 +407,8 @@ article {
     font-family: Merriweather, Oswald;
     letter-spacing: 2px;
     font-style: italic;
-    font-weight: 600;
+    font-weight: 580;
+    position: absolute;
     
     
 }
