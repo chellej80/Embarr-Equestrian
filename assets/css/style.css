@@ -209,7 +209,7 @@ ol {
 #flex-container-images {
     display: flex;
     /*flex-direction: row wrap;*/
-    margin: 20px;
+    margin: auto;
     position: relative;
     overflow: hidden;
 }
