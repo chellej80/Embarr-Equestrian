@@ -159,6 +159,8 @@ h1 h3 {
     opacity: 0.6;
 }
 
+
+
 #cover-text {
     color: #002980;
     font-size: 100%;
@@ -220,6 +222,11 @@ ol {
     transform: scale(1.1);
 }
 
+#image-1-text:hover, 
+#image-2-text:hover {
+    background-color: rgba(0, 0, 0, 0.356);
+} 
+
 #image-1-text {
     color: #fff;
     font-size: 120%;
@@ -227,7 +234,7 @@ ol {
     text-transform: uppercase;
     letter-spacing: 5px;
     width: 300px;
-    background-color: rgba(0, 0, 0, 0.356);
+    
     padding: 20px;
     bottom: 0;
     position: absolute;
@@ -240,7 +247,7 @@ ol {
     text-transform: uppercase;
     letter-spacing: 5px;
     width: 300px;
-    background-color: rgba(0, 0, 0, 0.356);
+    
     padding: 20px;
     left: 0;
     position: absolute;
