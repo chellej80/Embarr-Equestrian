@@ -341,17 +341,7 @@ img {
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
-.info-container-2 {
-    font-family: Merriweather, Oswald;
-    border-radius: 5px;
-    background: url("../images/field_crop_test.jpg") no-repeat center center;
-    
-    margin: 45px;
-    width: 50%;
-    height: 520px;
-    padding: 25px;
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-}
+
 
 /*style the form */
 input[type="text"],
@@ -390,17 +380,8 @@ input[type="reset"] {
     overflow: hidden;
 }
 
-.gmap_canvas {
-    position: relative;
-    height: 85%;
-    width: 100%;
-    padding: 20px;
-    border: rgba(0, 0, 0, 0.25);
-    border-radius: 4px;
-    scroll-behavior: auto;
-    overflow: hidden;
-}
-#testimonial-txt {
+
+/*#testimonial-txt {
     color: #002980;
     font-size: 85%;
     font-family: Merriweather, Oswald;
@@ -408,12 +389,54 @@ input[type="reset"] {
     font-weight: bold;
     margin: 5px;
     padding: 10px;
-    /*background-color:  rgba(23,67,88,0.1);*/
+    /*background-color:  rgba(23,67,88,0.1);
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     position: absolute;
     letter-spacing: 2px;
     font-style: italic;
+}*/
+
+article {
+
+    display: block;
+    margin: 5px 10px 10px 10px;
+    padding: 15px;
+    left: 0;
+    font-size: large;
+    font-family: Merriweather, Oswald;
+    letter-spacing: 2px;
+    font-style: italic;
+    font-weight: 600;
+    
+    
 }
+
+@media (max-width: 946px){
+
+    article {
+
+        display: flex;
+        font-size: small;
+        
+        
+}
+    
+}
+
+@media (max-width: 320px){
+
+    article {
+
+        display: block;
+        font-size: 75%;
+        
+        
+        
+}
+    
+}
+
+
 
 /*Footer */
 
@@ -431,6 +454,15 @@ input[type="reset"] {
     padding: 2%;
     color: #002980;
 }
+
+
+/* Clearfix (clear floats) Reference - w3schools */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 
 /*media queries */
 
@@ -507,7 +539,7 @@ input[type="reset"] {
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
     #flex-container {
-        flex-direction: column;
+    flex-direction: column;
     }
 }
 
@@ -516,7 +548,20 @@ input[type="reset"] {
 @media (max-width: 800px) {
     .info-container {
         width: 100%;
-        margin: 0;
+        margin:0;
+        margin-bottom: 20px;
+        padding-left: 40px;
+        
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 800px) {
+    form, .gmap_canvas {
+        padding-left: 35px;
+        margin:0;
         margin-bottom: 10px;
+        width: 95%;
+
+        
     }
 }
