@@ -196,6 +196,13 @@ ol {
     margin-left: 0;
     margin-right: 0;
     padding-left: 40px;
+    
+}
+
+ol li {
+
+    font-size: 0.8em;
+    
 }
 
 /*flex container for three images on Index page */
@@ -396,7 +403,7 @@ input[type="reset"] {
 
 
 
-article {
+#article-text {
 
     display: block;
     margin: 5px 10px 10px 10px;
