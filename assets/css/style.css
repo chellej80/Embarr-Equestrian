@@ -347,7 +347,7 @@ img {
 input[type="text"],
 select,
 textarea {
-    width: 95%;
+    width: 100%;
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
@@ -371,9 +371,9 @@ input[type="reset"] {
 
 .gmap_canvas {
     position: relative;
-    height: 80%;
-    width: 95%;
-    padding: 20px;
+    height: 90%;
+    width: 100%;
+    padding: 20px 15px 20px 20px;
     border: rgba(0, 0, 0, 0.25);
     border-radius: 4px;
     scroll-behavior: auto;
@@ -553,20 +553,24 @@ article {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 800px) {
+@media only screen and (min-width: 720px) and (max-width: 800px) {
 
     .info-container {
         margin-bottom: 20px;
         padding-left: 40px;
+      
     }
 
-@media only screen and (min-width: 768px) and (max-width: 800px) {
+}
+
+/*@media only screen and (min-width: 720px) and (max-width: 800px) {
     form, .gmap_canvas {
-        padding-left: 35px;
+
+        padding-left: 20px;
         margin:0;
         margin-bottom: 10px;
-        width: 95%;
+        
 
         
     }
-}
+}*/
