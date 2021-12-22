@@ -400,44 +400,45 @@ input[type="reset"] {
 article {
 
     display: block;
-    margin: 5px 10px 10px 10px;
-    padding: 25px;
-    left: 0;
-    font-size: large;
+    margin: 0px 10px 10px 10px;
+    padding: 20px 50px 20px 20px;
+    /*text-align: justify;*/
+    line-height: 1.5;
+    font-size:medium;
     font-family: Merriweather, Oswald;
     letter-spacing: 2px;
     font-style: italic;
-    font-weight: 600;
-    position: absolute;
+    font-weight: 580;
+    
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     
     
+    
 }
 
-@media (max-width: 946px){
+/*@media only screen and (max-width: 768px) {
 
     article {
 
-        display: flex;
+        
+        padding: 40px 80px 80px 80px;
+        box-shadow: none;
+    
+}*/
+
+@media (max-width: 450px) {
+
+    article {
+
+        
+        padding: 0p 20px 20px 20px;
         font-size: small;
-        
-        
-}
     
 }
 
-@media (max-width: 320px){
-
-    article {
-
-        display: block;
-        font-size: 75%;
-        
-        
-        
 }
-    
-}
+
+
 
 
 
@@ -579,6 +580,7 @@ article {
         width: 100%;
         margin:0;
         margin-bottom: 20px;
+        
     }
 }
 
@@ -587,6 +589,7 @@ article {
     .info-container {
         margin-bottom: 20px;
         padding-left: 40px;
+        
       
     }
 
