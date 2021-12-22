@@ -144,7 +144,7 @@ h1 h3 {
 }
 
 #hero-image {
-    height: 550px;
+    height: 600px;
     width: 100%;
     background: url("../images/hero_image_horse.jpg") no-repeat center center;
 }
@@ -401,13 +401,13 @@ article {
 
     display: block;
     margin: 5px 10px 10px 10px;
-    padding: 15px;
+    padding: 25px;
     left: 0;
     font-size: large;
     font-family: Merriweather, Oswald;
     letter-spacing: 2px;
     font-style: italic;
-    font-weight: 580;
+    font-weight: 600;
     position: absolute;
     
     
@@ -491,7 +491,24 @@ article {
 
 /*cover text responsivnes */
 
-@media (max-width: 768px) {
+/*@media (max-width: 320px) {
+    #cover-text,
+    #cover-text-pages {
+        max-width: 200px !important;
+        left: 10px;
+        height: auto;
+    }
+}*/
+
+@media (max-width: 348px) {
+    #cover-text,
+    #cover-text-pages {
+        max-width: 280px !important;
+        left: 10px;
+        height: auto;
+    }
+}
+@media only screen and (min-width: 350px)and (max-width: 550px) {
     #cover-text,
     #cover-text-pages {
         max-width: 300px !important;
@@ -500,10 +517,19 @@ article {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 950px) {
+@media only screen and (min-width: 550px) and (max-width: 749px) {
     #cover-text,
     #cover-text-pages {
-        max-width: 450px !important;
+        max-width: 500px !important;
+        left: 10px;
+        height: auto;
+    }
+}
+
+@media only screen and (min-width: 750px) and (max-width: 950px) {
+    #cover-text,
+    #cover-text-pages {
+        max-width: 750px !important;
         left: 25px;
         height: auto;
     }
