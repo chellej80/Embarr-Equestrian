@@ -163,8 +163,9 @@ h1 h3 {
     color: #002980;
     font-size: 100%;
     font-family: Merriweather, Oswald;
-    /*text-transform: uppercase;*/
     letter-spacing: 3px;
+    /*text-transform: uppercase;*/
+   
     width: 750px;
     height: auto;
     margin-top: 20px;
@@ -176,12 +177,16 @@ h1 h3 {
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
-#cover-text-pages {
+#cover-text h4 {
+
+    text-align: center;
+}
+/*#cover-text-pages {
     color: #002980;
     font-size: 100%;
 
     font-family: Merriweather, Oswald;
-    /*text-transform: uppercase;*/
+    /*text-transform: uppercase;
     letter-spacing: 3px;
     width: 700px;
     height: auto;
@@ -192,7 +197,7 @@ h1 h3 {
     position: absolute;
     background-color: rgba(23, 67, 88, 0.1);
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
-}
+}*/
 
 ol {
     display: block;
@@ -413,10 +418,10 @@ article {
     margin: 5px 10px 10px 10px;
     padding: 20px 20px 50px 20px;
     /*text-align: justify;*/
-    line-height: 1.5;
+    line-height: 2;
     font-size:small;
     font-family: Merriweather, Oswald;
-    letter-spacing: 2px;
+    letter-spacing: 1.8px;
     font-style: italic;
     font-weight: 600;
     
@@ -596,14 +601,3 @@ article {
 
 }
 
-/*@media only screen and (min-width: 720px) and (max-width: 800px) {
-    form, .gmap_canvas {
-
-        padding-left: 20px;
-        margin:0;
-        margin-bottom: 10px;
-        
-
-        
-    }
-}*/
