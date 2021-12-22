@@ -227,7 +227,7 @@ ol {
     background-color: rgba(0, 0, 0, 0.356);
 } 
 
-#image-1-text {
+#image-1-text, #image-3-text {
     color: #fff;
     font-size: 120%;
     font-family: Merriweather, Oswald;
