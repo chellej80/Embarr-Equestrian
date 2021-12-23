@@ -14,7 +14,7 @@ Raise the conversion rate.
 
 The site design was developed with mobile responsiveness at the forefront. It consists of four pages that all follow the same layout. 
 
-[![Site Mockup](https://github.com/chellej80/Project-Playground--MJ/blob/5890b012418c4a1da0a2cd0c4c957a37e5517833/)assets
+[![Site Mockup](https://github.com/chellej80/Project-Playground--MJ/blob/5890b012418c4a1da0a2cd0c4c957a37e5517833/)
 
 ## Features 
 
