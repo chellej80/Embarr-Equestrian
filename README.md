@@ -82,7 +82,8 @@ This section introduces the user to Embarr Equestrian with an eye catching hero 
 <img src="assets/media/Index_hero_nav.jpg">
 
 - __The sub pages hero image__
-Each sub page - Coaching, Livery, EAL also have the same hero image in an opaque verision that also contains text overlay to allow the user to quickly ascertain what the service offered is and how to follow up with the business owner to discuss. 
+
+each sub page - Coaching, Livery, EAL also have the same hero image in an opaque verision that also contains text overlay to allow the user to quickly ascertain what the service offered is and how to follow up with the business owner to discuss. 
 <img src="assets/media/coaching_hero.jpg">
 
 ### The Images Section
@@ -315,9 +316,9 @@ All content was written by the project owner
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-  - On submission the project is forked to by forking the project I will make a copy of the original repository that can be viewed without affecting the original repository by following these steps: In the GitHub repository, locate the settings, above this is the option to 'fork', select this to create a copy
+  - On submission the project it is forked, by forking the project a copy of the original repository is made that can be viewed without affecting the original repository by following these steps: In the GitHub repository, locate the settings, above this is the option to 'fork', select this to create a copy
 
-  - To create a clone in the repository select 'clone'
+  
 
     
 
