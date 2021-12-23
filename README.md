@@ -27,12 +27,18 @@ The site design was developed with mobile responsiveness at the forefront. It co
 
 
 
-### Header - Logo & Navigation Menu
+### The Header Section
 
-Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Coaching, Livery, EAL Contact form and is identical in structure for each page to allow for easy navigation.
-This section allows the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+- __Navigation Bar__
+
+  Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation.
+  This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 
 - __Logo__
+
+    The logo I created simply using a combination of text and a font awsome icon. The logo is a hyperlink that takes the user to the homepage.
+
+    
 
 - __Navigation Bar__
 
