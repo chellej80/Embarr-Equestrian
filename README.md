@@ -72,7 +72,7 @@ For the three sub pages - Coaching, Livery & EAL this section is displayed as a 
 
 ### The Information Section
 
-- __Information Section__
+
 
 - On the landing page this section is divided into two parts, the contact form and the location map - the contact form will allow the user to submit a message to the business owner. All fields are set to required & the form when submitted will diplay the code institute form dump page.
 
@@ -84,10 +84,10 @@ For the three sub pages - Coaching, Livery & EAL this section is displayed as a 
 
 ### The Footer
 
-- __The Footer__ 
 
-    - The footer section includes links to the relevant social media sites (Facebook, Twitter, youtube, Instagram) for Embarr Equestrian. The links will open to a new tab to allow easy navigation for the user. 
-    - The footer is valuable to the user as it encourages them to keep connected via social media
+
+  - The footer section includes links to the relevant social media sites (Facebook, Twitter, youtube, Instagram) for Embarr Equestrian. The links will open to a new tab to allow easy navigation for the user. 
+  - The footer is valuable to the user as it encourages them to keep connected via social media
     <img src="assets/media/footer.PNG">
 
 
