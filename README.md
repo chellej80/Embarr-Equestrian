@@ -18,8 +18,9 @@ The site design was developed with mobile responsiveness at the forefront. It co
 * Give clear calls to action
 * Build the brand image
 * Raise the conversion rate.
-
-## Site Mockup
+<div><center><h2>
+Site Mockup
+</h2></center></div>
 
 <img src="media/mockup_Home.jpg">
 
@@ -46,17 +47,25 @@ The site design was developed with mobile responsiveness at the forefront. It co
 
 The landing page includes a hero image of a horse with a text overlay 'About Us' to allow the user to quickly see exactly what the site is about.
 This section introduces the user to Embarr Equestrian with an eye catching hero image to grab their attention.
-
+<img src="media/Index_hero_nav.jpg">
 Each sub page - Coaching, Livery, EAL also have the same hero image in an opaque verision that also contains text overlay to allow the user to quickly ascertain what the service offered is and how to follow up with the business owner to discuss. 
-<img src="media/logo.jpg">
+<img src="media/coaching_hero.jpg">
 
 
 - __Image/ Gallery Section__
 
-This section contains three
+This section on the landing page contains three clickable linked Images with text. Each image represents one of the sub pages - Coaching, Livery and EAL, each image has a box shadow & pop effect that emphasises to the user when they hover on them that they are interactive hyperlinks.
+<img src="media/index_images.jpg">
 
+For the three sub pages - Coaching, Livery & EAL this section is displayed as a manual slideshow gallery to showcase some of the activies Embarr Equestrian offers. The gallery has numbers in the top right corner so the user can see how many slides there are, the next & previous arrows have a hover effect.
+<img src="media/livery_gallery.jpg">
 
 - __Information Section - Contact Form/ Location__
+
+- This section is divided into two parts - the contact form will allow the user to submit a message to the business owner. All fields are set to required & the form when submitted will diplay the code institute form dump page.
+
+- The location part of this section allows the user to interact with an embedded google map to locate the business. 
+<img src="media/info_footer.jpg">
 
 - __The Footer__ 
 
