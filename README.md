@@ -161,13 +161,6 @@ For the three sub pages - Coaching, Livery & EAL this section is displayed as a 
 
 
 
-
-
-
-
-
-
-
 ## Testing Conducted 
 
 ### Usability testing 
@@ -197,12 +190,44 @@ I tested all the hyperlinked text/ images/ nav items to ensure that there were n
 I tested that all hover effects were working for the nav menu/ the image text overlay/ the slideshow arrows.
 
 ### Slideshow Gallery 
-Responsiveness
-Performance
-Cross-platform testing
-CSS Code Validation
-HTML Code Validation
 
+I tested the slideshow Gallery function on all three sub pages to ensure that they were functioning as expected in Desktop/ mobile/ ipad
+
+### Responsiveness
+
+I used developer tools and [Techsini](http://techsini.com/multi-mockup/index.php) & [ami](http://ami.responsivedesign.is/#) throughout all development of the site to ensure that it was responding to all devices down to 300px - 360px width
+
+### Performance
+
+I ran the site through the lighthouse performance tool for developers: 
+[Lighthouse](https://developers.google.com/web/tools/lighthouse)
+<img src="media/Lighthouse.PNG">
+
+
+
+### CSS Code Validation
+I ran the CSS Code through the follwoing validator:
+[Jigsaw](https://jigsaw.w3.org/css-validator)
+
+There were no errors detected
+<img src="media/css_validator.jpg">
+
+### HTML Code Validation
+
+I ran the HTML Code through the follwoing validator:
+[Jigsaw](https://jigsaw.w3.org/css-validator)
+
+- Index Page results:
+<img src="media/index_html_validator.jpg">
+
+- Coaching Page results:
+Some small errors were found but I fixed and tested again
+- Livery Page results:
+Some small errors were found but I fixed and tested again
+- EAL Page results:
+Some small errors were found but I fixed and tested again
+
+Cross-platform testing
 
 ### Validator Testing 
 

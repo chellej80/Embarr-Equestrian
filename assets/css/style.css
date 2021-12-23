@@ -66,8 +66,7 @@ h1 h3 h4 h5 {
 }
 
 /* style the responsive menu - updates to hamburger menu for smaller screens
-    code Reference: https://codepen.io/mutedblues/pen/MmPNPG*/
-
+    code Reference: https://www.w3schools.com/howto/howto_js_topnav_responsive.asp */
 .header .menu {
     clear: both;
     max-height: 0;
