@@ -44,9 +44,11 @@ Site Mockup
 - __Logo__
 
     The logo I created simply using a combination of text and a font awsome icon. The logo is a hyperlink that takes the user to the homepage.
+    
     <img src="assets/media/logo.jpg">
 
 
+### The Hero Image
 
 - __The landing page hero image__
 
@@ -58,6 +60,7 @@ This section introduces the user to Embarr Equestrian with an eye catching hero 
 Each sub page - Coaching, Livery, EAL also have the same hero image in an opaque verision that also contains text overlay to allow the user to quickly ascertain what the service offered is and how to follow up with the business owner to discuss. 
 <img src="assets/media/coaching_hero.jpg">
 
+### The Images Section
 
 - __Image/ Gallery Section__
 
@@ -66,6 +69,8 @@ This section on the landing page contains three clickable linked Images with tex
 
 For the three sub pages - Coaching, Livery & EAL this section is displayed as a manual slideshow gallery to showcase some of the activies Embarr Equestrian offers. The gallery has numbers in the top right corner so the user can see how many slides there are, the next & previous arrows have a hover effect.
 <img src="assets/media/livery_gallery.jpg">
+
+### The Information Section
 
 - __Information Section__
 
@@ -76,6 +81,8 @@ For the three sub pages - Coaching, Livery & EAL this section is displayed as a 
 
 - The information sections for the three subpages is slightly different. For these pages the section contains an embedded youtube video & a testimonial block related to the page topic.
 <img src="assets/media/livery_info_footer.jpg">
+
+### The Footer
 
 - __The Footer__ 
 
