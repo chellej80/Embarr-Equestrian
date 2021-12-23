@@ -6,7 +6,11 @@ Embarr Equestrian is a website designed for an small equine business owner. The 
 
 The site design was developed with mobile responsiveness at the forefront. It consists of four pages that all follow the same structured layout of a header, three sections and the footer: [Embarr Equestrian - Deployed Site Link](https://chellej80.github.io/Embarr-Equestrian/)
 
+<div><center><h2>
+Site Mockup
+</h2></center></div>
 
+<img src="media/mockup_Home.jpg">
 
 ## The sites goals are:
 
@@ -18,11 +22,13 @@ The site design was developed with mobile responsiveness at the forefront. It co
 * Give clear calls to action
 * Build the brand image
 * Raise the conversion rate.
-<div><center><h2>
-Site Mockup
-</h2></center></div>
 
-<img src="media/mockup_Home.jpg">
+## User Stories
+
+
+
+
+
 
 ## Features 
 
@@ -129,12 +135,29 @@ For the three sub pages - Coaching, Livery & EAL this section is displayed as a 
 
 ### Footer
 
-Code adapted from [Eduonix](https://blog.eduonix.com/web-programming-tutorials/build-responsive-website-footer-using-html-css/), [Codepen](https://codepen.io/jakeduncan/pen/rJZJMM) & [Love Running Module](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/). 
+- Code adapted from [Eduonix](https://blog.eduonix.com/web-programming-tutorials/build-responsive-website-footer-using-html-css/), [Codepen](https://codepen.io/jakeduncan/pen/rJZJMM) & [Love Running Module](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/). 
 
 ### Youtube Video
 
 - Code & Html taken from [Youtube & w3schools](https://www.w3schools.com/html/html_youtube.asp)
 
+### Hover/ Box Shadow Effects
+
+- Code taken from [Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/:hover) & [Box Shadow](https://getcssscan.com/css-box-shadow-examples)
+
+### Lists 
+
+- Code adapted from [w3schools](https://www.w3schools.com/tags/tag_ol.asp)
+
+### Text Blocks
+
+- Code adapted from [Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/Containing_block
+)
+
+
+### Gallery Slideshow 
+
+- Javascript code taken from [w3schools]((https://www.w3schools.com/w3css/w3css_slideshow.asp))
 
 
 
@@ -143,7 +166,43 @@ Code adapted from [Eduonix](https://blog.eduonix.com/web-programming-tutorials/b
 
 
 
-## Testing
+
+
+## Testing Conducted 
+
+### Usability testing 
+I had work colleagues and family members assistance to test the site usability. The conclusion of this testing was that:
+- All pages of the site were understandable and easy to use
+- Buttons, links, and fields were convenient for use
+- There is access to the Main navigation menu from all pages via the desktop version and mobile version.
+
+### Content 
+
+I reviewed all content on the site for:
+- grammar and spelling mistakes
+- Images are placed properly with proper sizes &    displaying as expected
+- Instructions are clear and contain correct information
+- Verified all text/ headings are displaying correctly
+
+### Navigation
+
+I tested all the navigation functions via desktop and mobile/ ipad to ensure that they are functioning and linking to the correct pages.
+
+### Links testing
+
+I tested all the hyperlinked text/ images/ nav items to ensure that there were no broken links and that they were linking to the correct locations on the site and/or opening in a new window if expected.
+
+### Effects Testing 
+
+I tested that all hover effects were working for the nav menu/ the image text overlay/ the slideshow arrows.
+
+### Slideshow Gallery 
+Responsiveness
+Performance
+Cross-platform testing
+CSS Code Validation
+HTML Code Validation
+
 
 ### Validator Testing 
 
