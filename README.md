@@ -300,11 +300,14 @@ All content was written by the project owner
 
 ### Media
 
-All images with the exception of the hero image (purchased from Shutterstock) are images taken by the project owner and her family     
+- All images with the exception of the hero image (purchased from Shutterstock) are images taken by the project owner and her family     
 
-The youtube videos do not belong nor were created by me, they are simply a tool to showcase how a video can be embedded.
+- The youtube videos do not belong nor were created by me, they are simply a tool to showcase how a video can be embedded.
 
+### Readme 
 
+- I used the 
+[Markdown cheat sheet](https://github.com/tchapi/markdown-cheatsheet/blob/master/README.md) and the [love running template ](https://github.com/Code-Institute-Solutions/readme-template )to help put together my readme.
 # Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
