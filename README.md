@@ -108,6 +108,84 @@ For the three sub pages - Coaching, Livery & EAL this section is displayed as a 
 - [Photojoiner](https://www.photojoiner.net/) - This was used to join multiple images together for the gallery slideshows on the three sub pages.
 - [3D Paint](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99#activetab=pivot:overviewtab) - This was used to crop and add filters to the images.
 
+
+
+
+## Testing Conducted 
+
+### Usability testing 
+I had work colleagues and family members assistance to test the site usability. The conclusion of this testing was that:
+- All pages of the site were understandable and easy to use
+- Buttons, links, and fields were convenient for use
+- There is access to the Main navigation menu from all pages via the desktop version and mobile version.
+
+### Content 
+
+I reviewed all content on the site for:
+- grammar and spelling mistakes
+- Images are placed properly with proper sizes &    displaying as expected
+- Instructions are clear and contain correct information
+- Verified all text/ headings are displaying correctly
+
+### Navigation
+
+I tested all the navigation functions via desktop and mobile/ ipad to ensure that they are functioning and linking to the correct pages.
+
+### Links testing
+
+I tested all the hyperlinked text/ images/ nav items to ensure that there were no broken links and that they were linking to the correct locations on the site and/or opening in a new window if expected.
+
+### Effects Testing 
+
+I tested that all hover effects were working for the nav menu/ the image text overlay/ the slideshow arrows.
+
+### Slideshow Gallery 
+
+I tested the slideshow Gallery function on all three sub pages to ensure that they were functioning as expected in Desktop/ mobile/ ipad
+
+### Responsiveness
+
+I used developer tools and [Techsini](http://techsini.com/multi-mockup/index.php) & [ami](http://ami.responsivedesign.is/#) throughout all development of the site to ensure that it was responding to all devices down to 300px - 360px width
+
+### Performance
+
+I ran the site through the lighthouse performance tool for developers: 
+[Lighthouse](https://developers.google.com/web/tools/lighthouse)
+<img src="media/Lighthouse.PNG">
+
+Given more time I would look at the passive listeners to improve scrolling performance, and also the images/ youtube videos in order to improve the performance score
+
+
+### CSS Code Validation
+I ran the CSS Code through the follwoing validator:
+[Jigsaw](https://jigsaw.w3.org/css-validator)
+
+There were no errors detected
+<img src="media/css_validator.jpg">
+
+### HTML Code Validation
+
+I ran the HTML Code through the follwoing validator:
+[Jigsaw](https://jigsaw.w3.org/css-validator)
+
+- Index Page results:
+<img src="media/index_html_validator.jpg">
+
+- Coaching Page results:
+Some small errors were found but I fixed and tested again
+- Livery Page results:
+Some small errors were found but I fixed and tested again
+- EAL Page results:
+Some small errors were found but I fixed and tested again
+
+Cross-platform testing
+
+### Validator Testing 
+
+### Unfixed Bugs
+
+
+
 ## Credits
 
 ### Header & Navigation: 
@@ -159,85 +237,26 @@ For the three sub pages - Coaching, Livery & EAL this section is displayed as a 
 
 - Javascript code taken from [w3schools]((https://www.w3schools.com/w3css/w3css_slideshow.asp))
 
+### Content
+
+All content was written by the project owner
+
+### Media
+
+All images with the exception of the hero image (purchased from Shutterstock) are images taken by the project owner and her family     
 
 
-## Testing Conducted 
-
-### Usability testing 
-I had work colleagues and family members assistance to test the site usability. The conclusion of this testing was that:
-- All pages of the site were understandable and easy to use
-- Buttons, links, and fields were convenient for use
-- There is access to the Main navigation menu from all pages via the desktop version and mobile version.
-
-### Content 
-
-I reviewed all content on the site for:
-- grammar and spelling mistakes
-- Images are placed properly with proper sizes &    displaying as expected
-- Instructions are clear and contain correct information
-- Verified all text/ headings are displaying correctly
-
-### Navigation
-
-I tested all the navigation functions via desktop and mobile/ ipad to ensure that they are functioning and linking to the correct pages.
-
-### Links testing
-
-I tested all the hyperlinked text/ images/ nav items to ensure that there were no broken links and that they were linking to the correct locations on the site and/or opening in a new window if expected.
-
-### Effects Testing 
-
-I tested that all hover effects were working for the nav menu/ the image text overlay/ the slideshow arrows.
-
-### Slideshow Gallery 
-
-I tested the slideshow Gallery function on all three sub pages to ensure that they were functioning as expected in Desktop/ mobile/ ipad
-
-### Responsiveness
-
-I used developer tools and [Techsini](http://techsini.com/multi-mockup/index.php) & [ami](http://ami.responsivedesign.is/#) throughout all development of the site to ensure that it was responding to all devices down to 300px - 360px width
-
-### Performance
-
-I ran the site through the lighthouse performance tool for developers: 
-[Lighthouse](https://developers.google.com/web/tools/lighthouse)
-<img src="media/Lighthouse.PNG">
-
-
-
-### CSS Code Validation
-I ran the CSS Code through the follwoing validator:
-[Jigsaw](https://jigsaw.w3.org/css-validator)
-
-There were no errors detected
-<img src="media/css_validator.jpg">
-
-### HTML Code Validation
-
-I ran the HTML Code through the follwoing validator:
-[Jigsaw](https://jigsaw.w3.org/css-validator)
-
-- Index Page results:
-<img src="media/index_html_validator.jpg">
-
-- Coaching Page results:
-Some small errors were found but I fixed and tested again
-- Livery Page results:
-Some small errors were found but I fixed and tested again
-- EAL Page results:
-Some small errors were found but I fixed and tested again
-
-Cross-platform testing
-
-### Validator Testing 
-
-### Unfixed Bugs
-
-## Deployment
+# Deployment
 
 - The site was deployed to GitHub pages. The steps to deploy are as follows: 
   - In the GitHub repository, navigate to the Settings tab 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+  - On submission the project is forked to by forking the project I will make a copy of the original repository that can be viewed without affecting the original repository by following these steps: In the GitHun repository, locate the settings, above this is the option to 'fork', select this to create a copy
+
+  - To create a clone in the repository select 'clone'
+
+    
 
 The live link can be found here - [Embarr Equestrian - Deployed Site Link](https://chellej80.github.io/Embarr-Equestrian/)
