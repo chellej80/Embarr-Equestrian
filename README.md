@@ -36,9 +36,10 @@ Site Mockup
 
 - __Navigation Bar__
 
-  Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page and three sub pages - Coaching, Livery, EAL page and is identical in structure for each page to allow for easy navigation. When the user hovers over a one of the menu items it is highlighted. The navigation items are styled to transition to a hamburger menu when the site is reduced in size on a mobile device.
-  This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-<img src="assets/media/Nav_1.jpg"><img src="assets/media/Nav_2.PNG">
+  Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page and three sub pages - Coaching, Livery, EAL page and is identical in structure for each page to allow for easy navigation. When the user hovers over a one of the menu items it is highlighted. The navigation items are styled to transition to a hamburger menu when the site is reduced in size on a mobile device. This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
+
+<img src="assets/media/Nav_1.jpg">
+<img src="assets/media/Nav_2.PNG">
 
 - __Logo__
 
