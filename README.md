@@ -104,9 +104,40 @@ For the three sub pages - Coaching, Livery & EAL this section is displayed as a 
 
 ## Credits
 
-- Header & Navigation: 
-[Responsive header & Navigation Menu](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) tutorial from W3schools.
--
+### Header & Navigation: 
+- [Responsive header & Navigation Menu](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) tutorial from W3schools.
+
+### Hero Images: 
+
+- Tutorials from [W3schools](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp),  [Elementor](https://elementor.com/blog/hero-image/?utm_source=google&utm_medium=cpc&utm_campaign=11138809851&utm_term=&gclid=Cj0KCQiA2ZCOBhDiARIsAMRfv9JNeu2cN7Oh6WGv706wIViKg2tBoXlBjhg9Zw9Wkd9m3fQOmdY_Fp0aAtXIEALw_wcB) & from the [Love Runnning Module](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/).  
+- The image used was purchased from [Shutterstock](https://www.shutterstock.com/)  
+
+### Responsiveness: 
+- Tutorials & flexbox code adapted from [Flexfroggy](https://flexboxfroggy.com/), [W3schools](https://www.w3schools.com/howto/howto_css_responsive_text.asp
+), [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/), [CSS grid versus flexbox](https://webdesign.tutsplus.com/articles/flexbox-vs-css-grid-which-should-you-use--cms-30184), [Webdev](https://web.dev/responsive-web-design-basics/)
+
+
+
+- Media Queries [W3schools](https://www.w3schools.com/css/css_rwd_mediaqueries.asp) & [Love Runnning Module](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/)
+
+### Contact Form
+- Code adapted from [Mozilla](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/form)
+
+### Location - Google Map
+
+- Code taken from [Google Maps](https://google-map-generator.com/)
+
+### Footer
+
+Code adapted from [Eduonix](https://blog.eduonix.com/web-programming-tutorials/build-responsive-website-footer-using-html-css/), [Codepen](https://codepen.io/jakeduncan/pen/rJZJMM) & [Love Running Module](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/6fd29d155c3b42248ff57bae32978a4b/). 
+
+### Youtube Video
+
+- Code & Html taken from [Youtube & w3schools](https://www.w3schools.com/html/html_youtube.asp)
+
+
+
+
 
 
 
