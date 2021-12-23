@@ -25,6 +25,25 @@ Site Mockup
 
 ## User Stories
 
+### First Time USer 
+
+- As a first time visitor I want to understand the main purpose of the site and learn more about the business
+- I want to be able to navigate the site easily 
+- I want to clearly understand what services the business is offering
+- I want to quickly understand how I can contact the business owner
+- I want to know the location of the business
+- I want to see testimonials see links to their social media accounts so I can decide if they are trustworthy and if it is worth trying their services
+
+
+### As a returning visitor
+
+- I would like to see an events page / booking form and up to date information/ images, current content not out of date.
+- I would like to see a newsletter subscription offer 
+- I would like to see regular updates to the youtube video account associated with the business.
+
+
+### Target Audience
+
 - Joan (54) a housewife from Meath, owner of a sports horse, looking for a yard in Meath that she can board her horse at fulltime. She requires a quiet location where she can focus on training for competitions and where there is an on-site coach.
 
 - Deirdre (46) a school teacher from Kildare, seeking a new opportunity for self development, she wants to join up with like minded individuals to explore equine assisted learning in order to improve her empathy skills, she also would like to try it to see if it would be a suitable team activity for her pupils.
