@@ -29,7 +29,7 @@
             <div id="cover-text">
                 <h2>Equestrian Assisted Learning</h2><br>
                 
-                <h5>We offer equestrian assisted growth and learning sessions and workshops in a group setting or private one to one sessions. <br>
+                <h5>We offer equestrian assisted growth and learning sessions and workshops in a group setting or private one to one sessions. <br></h5>
                 
 
              <br>
@@ -43,9 +43,8 @@
                 
                 </ol>       
           
-                For further information on this topic go to: <a href="https://en.wikipedia.org/wiki/Equine-assisted_therapy" target="_blank">EAL</a><br> 
-                <!--<br>
-                <p><i class="fas fa-phone-square-alt"></i> Call us on (088) 9998888 or send us a <a href="index.html#contact-us">message </a></p>-->
+                <h5>For further information on this topic go to: <a href="https://en.wikipedia.org/wiki/Equine-assisted_therapy" target="_blank">EAL</a><br> 
+                
             </h5>
 
                 
@@ -60,13 +59,13 @@
 
                     <div class="mySlides fade">
                       <div class="numbertext">Gallery 1 / 2</div>
-                      <img src="assets/images/EAL_1.jpg" style="width:100%">
+                      <img src="assets/images/EAL_1.jpg" alt="people and horses in action" style="width:100%">
                       
                     </div>
                   
                     <div class="mySlides fade">
                       <div class="numbertext">Gallery 2 / 2</div>
-                      <img src="assets/images/EAL_2.jpg" style="width:100%">
+                      <img src="assets/images/EAL_2.jpg" alt="people and horses in action" style="width:100%">
                       
                     </div>
 
@@ -87,8 +86,8 @@
 <section class="row">
     <div id="flex-container">
         <div class="info-container">
-            <h2><i class="fab fa-youtube-square"></i><a id="contact-us"></a> EAL Ted Talk</a></h2><br>
-            <iframe class="gmap_canvas" src="https://www.youtube.com/embed/RC1v5IiwYj8?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h2><i class="fab fa-youtube-square"></i>EAL Ted Talk</h2><br>
+            <iframe class="gmap_canvas" src="https://www.youtube.com/embed/RC1v5IiwYj8?controls=0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
         </div>
     
@@ -96,8 +95,8 @@
         
             <div class="info-container" >
                 
-                <h2><i class="far fa-grin-stars"></i></a> Testimonials</a></h2><br>
-                <article>
+                <h2><i class="far fa-grin-stars"></i> Testimonials</h2><br>
+                <article id="article-text">
                     <p>Deirdre (46) Kildare,<br>
                         
                     I experienced the Equine Assisted Learning with Michelle & team recently. 
@@ -109,7 +108,7 @@
                     </article>
                 
                 </div>
-                
+            </div>
 
                 
                     
@@ -136,35 +135,10 @@
         </footer>
         
     
-
-        <script>
-            var slideIndex = 0;
-            showSlides();
-            
-            function showSlides() {
-              var i;
-              var slides = document.getElementsByClassName("mySlides");
-              var dots = document.getElementsByClassName("dot");
-              for (i = 0; i < slides.length; i++) {
-                slides[i].style.display = "none";  
-              }
-              slideIndex++;
-              if (slideIndex > slides.length) {slideIndex = 1}    
-              for (i = 0; i < dots.length; i++) {
-                dots[i].className = dots[i].className.replace(" active", "");
-              }
-              slides[slideIndex-1].style.display = "block";  
-              dots[slideIndex-1].className += " active";
-              setTimeout(showSlides, 2000); // Change image every 2 seconds
-            }
-            </script>
-            
-        </body>
-        </html>
     <!-- font awesome script-->
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
     
     <!--JS script for Image gallery-->
     <script src="assets/main.js"></script>
     </body>
-    <html>
+    </html>
