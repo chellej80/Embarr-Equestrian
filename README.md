@@ -10,7 +10,7 @@ The site design was developed with mobile responsiveness at the forefront. It co
 Site Mockup
 </h2></center></div>
 
-<img src="media/mockup_Home.jpg">
+<img src=assets/media/mockup_Home.jpg>
 
 ## The sites goals are:
 
@@ -32,20 +32,18 @@ Site Mockup
 
 ## Features 
 
-
-
 ### The Header Section
 
 - __Navigation Bar__
 
   Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page and three sub pages - Coaching, Livery, EAL page and is identical in structure for each page to allow for easy navigation. When the user hovers over a one of the menu items it is highlighted. The navigation items are styled to transition to a hamburger menu when the site is reduced in size on a mobile device.
   This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
-<img src="media/Nav_1.jpg"><img src="media/Nav_2.PNG">
+<img src="assets/media/Nav_1.jpg"><img src="assets/media/Nav_2.PNG">
 
 - __Logo__
 
     The logo I created simply using a combination of text and a font awsome icon. The logo is a hyperlink that takes the user to the homepage.
-    <img src="media/logo.jpg">
+    <img src="assets/media/logo.jpg>
 
 
 
@@ -53,34 +51,34 @@ Site Mockup
 
 The landing page includes a hero image of a horse with a text overlay 'About Us' to allow the user to quickly see exactly what the site is about.
 This section introduces the user to Embarr Equestrian with an eye catching hero image to grab their attention.
-<img src="media/Index_hero_nav.jpg">
+<img src="assets/media/Index_hero_nav.jpg">
 Each sub page - Coaching, Livery, EAL also have the same hero image in an opaque verision that also contains text overlay to allow the user to quickly ascertain what the service offered is and how to follow up with the business owner to discuss. 
-<img src="media/coaching_hero.jpg">
+<img src="assets/media/coaching_hero.jpg">
 
 
 - __Image/ Gallery Section__
 
 This section on the landing page contains three clickable linked Images with text. Each image represents one of the sub pages - Coaching, Livery and EAL, each image has a box shadow & pop effect that emphasises to the user when they hover on them that they are interactive hyperlinks.
-<img src="media/index_images.jpg">
+<img src="assets/media/index_images.jpg">
 
 For the three sub pages - Coaching, Livery & EAL this section is displayed as a manual slideshow gallery to showcase some of the activies Embarr Equestrian offers. The gallery has numbers in the top right corner so the user can see how many slides there are, the next & previous arrows have a hover effect.
-<img src="media/livery_gallery.jpg">
+<img src="assets/media/livery_gallery.jpg">
 
 - __Information Section - Contact Form/ Location__
 
 - On the landing page this section is divided into two parts - the contact form will allow the user to submit a message to the business owner. All fields are set to required & the form when submitted will diplay the code institute form dump page.
 
 - The location part of this section allows the user to interact with an embedded google map to locate the business. 
-<img src="media/info_footer.jpg">
+<img src="assets/media/info_footer.jpg">
 
 - The information sections for the three subpages is slightly different. For these pages the section contains an embedded youtube video & a testimonial block related to the page topic.
-<img src="media/livery_info_footer.jpg">
+<img src="assets/media/livery_info_footer.jpg">
 
 - __The Footer__ 
 
     - The footer section includes links to the relevant social media sites (Facebook, Twitter, youtube, Instagram) for Embarr Equestrian. The links will open to a new tab to allow easy navigation for the user. 
     - The footer is valuable to the user as it encourages them to keep connected via social media
-    <img src="media/footer.PNG">
+    <img src="assets/media/footer.PNG">
 
 
 ### Features Left to Implement
@@ -145,13 +143,17 @@ I tested the slideshow Gallery function on all three sub pages to ensure that th
 
 ### Responsiveness
 
-I used developer tools and [Techsini](http://techsini.com/multi-mockup/index.php) & [ami](http://ami.responsivedesign.is/#) throughout all development of the site to ensure that it was responding to all devices down to 300px - 360px width
+I used chrome developer tools, [Techsini](http://techsini.com/multi-mockup/index.php) & [ami](http://ami.responsivedesign.is/#) throughout all development of the site to ensure that it was responding to all devices down to 300px - 360px width
+
+I tested the site responsiveness on my iphone/ ipad and my family/ friends android mobile devices to ensure the site was rendering and functional across a range of devices.
+
+
 
 ### Performance
 
 I ran the site through the lighthouse performance tool for developers: 
 [Lighthouse](https://developers.google.com/web/tools/lighthouse)
-<img src="media/Lighthouse.PNG">
+<img src=assets/media/Lighthouse.PNG>
 
 Given more time I would look at the passive listeners to improve scrolling performance, and also the images/ youtube videos in order to improve the performance score
 
@@ -161,7 +163,7 @@ I ran the CSS Code through the follwoing validator:
 [Jigsaw](https://jigsaw.w3.org/css-validator)
 
 There were no errors detected
-<img src="media/css_validator.jpg">
+<img src="assets/media/css_validator.jpg">
 
 ### HTML Code Validation
 
@@ -169,18 +171,18 @@ I ran the HTML Code through the follwoing validator:
 [Jigsaw](https://jigsaw.w3.org/css-validator)
 
 - Index Page results:
-<img src="media/index_html_validator.jpg">
+<img src="assets/media/index_html_validator.jpg" width="500px">
 
-- Coaching Page results:
-Some small errors were found but I fixed and tested again
-- Livery Page results:
-Some small errors were found but I fixed and tested again
-- EAL Page results:
-Some small errors were found but I fixed and tested again
+- Sub pages (Coaching/ Livery/EAL) results:
+Some small errors were found but I fixed and tested again.
+One small warning persists across these pages, if I had I would explore this further to resolve that section.
+<img src="assets/media/warning_html.PNG">
 
-Cross-platform testing
 
-### Validator Testing 
+
+### Autoprefixer CSS
+
+I ran the code through the [Autoprefixer] (https://autoprefixer.github.io/) and copied the parsed css back into my project.
 
 ### Unfixed Bugs
 
