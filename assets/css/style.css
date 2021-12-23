@@ -1,3 +1,10 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.3.6,
+* Autoprefixer: v10.3.1
+* Browsers: last 4 version
+*/
+
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Merriweather:wght@300&family=Oswald:wght@300&display=swap");
 
 * {
@@ -28,7 +35,8 @@ h1 h3 h4 h5 {
 /*style the header */
 .header {
     background-color: #fff;
-    box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+    -webkit-box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
+            box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
     position: static;
     width: 100%;
     z-index: 3;
@@ -70,6 +78,8 @@ h1 h3 h4 h5 {
 .header .menu {
     clear: both;
     max-height: 0;
+    -webkit-transition: max-height 0.2s ease-out;
+    -o-transition: max-height 0.2s ease-out;
     transition: max-height 0.2s ease-out;
 }
 
@@ -80,7 +90,10 @@ h1 h3 h4 h5 {
     float: right;
     padding: 28px 20px;
     position: relative;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 .header .menu-icon .navicon {
@@ -88,6 +101,8 @@ h1 h3 h4 h5 {
     display: block;
     height: 2px;
     position: relative;
+    -webkit-transition: background 0.2s ease-out;
+    -o-transition: background 0.2s ease-out;
     transition: background 0.2s ease-out;
     width: 20px;
 }
@@ -99,6 +114,8 @@ h1 h3 h4 h5 {
     display: block;
     height: 100%;
     position: absolute;
+    -webkit-transition: all 0.2s ease-out;
+    -o-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
     width: 100%;
 }
@@ -125,11 +142,15 @@ h1 h3 h4 h5 {
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon:before {
-    transform: rotate(-45deg);
+    -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+            transform: rotate(-45deg);
 }
 
 .header .menu-btn:checked ~ .menu-icon .navicon:after {
-    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
 }
 
 .header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
@@ -140,6 +161,8 @@ h1 h3 h4 h5 {
 /* style hero images and cover text */
 
 #hero-outer {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     position: relative;
     width: 100%;
@@ -179,7 +202,8 @@ h1 h3 h4 h5 {
     left: 0;
     position: absolute;
     background-color: rgba(23, 67, 88, 0.1);
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    -webkit-box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+            box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
 }
 
 #cover-text h2 {
@@ -208,6 +232,8 @@ ol li {
 /*create a flex container for the three linked images on Index page */
 
 #flex-container-images {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     margin: auto;
     position: relative;
@@ -220,14 +246,17 @@ ol li {
     width: 33.33%; /*set width of images*/
     position: relative; /*position relative the the flex container*/
     overflow: hidden;
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; /*add 3d box sadown affect*/
+    -webkit-box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+            box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; /*add 3d box sadown affect*/
     margin: 10px;
     cursor: pointer; /*curser transforms to a pointer when hovering over the images*/
 }
 
 /*add a pop hover effect that actions when the mouse hovers over the images*/
 .pop:hover {
-    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+            transform: scale(1.1);
 }
 
 /*add an opaque color hover effect that action when the mouse clicks on the image text*/
@@ -266,7 +295,8 @@ ol li {
 /*style the slideshow gallery for the three sub pages 
 Code Ref: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_self*/
 * {
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
 }
 body {
     font-family: Verdana, sans-serif;
@@ -286,7 +316,8 @@ img {
     margin: 15px;
     margin-bottom: 0px;
     height: auto;
-    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
 /* style the Next & previous buttons that appear on the manual gallery slideshow*/
@@ -301,9 +332,14 @@ img {
     color: white;
     font-weight: bold;
     font-size: 25px;
+    -webkit-transition: 0.6s ease;
+    -o-transition: 0.6s ease;
     transition: 0.6s ease;
     border-radius: 0 3px 3px 0;
-    user-select: none;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
 }
 
 /* Position the "next button" to the right */
@@ -334,6 +370,8 @@ img {
 /*Flex Container & info containers for the two information columns on index page - Form & Location Map*/
 
 #flex-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     
 }
@@ -346,7 +384,8 @@ img {
     width: 50%;
     height: 520px;
     padding: 25px;
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    -webkit-box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+            box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     position: relative;
 }
 
@@ -371,7 +410,8 @@ option {
     padding: 5px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin: 5px 5px 5px 0px;
     resize: none;
     overflow: auto;
@@ -417,7 +457,8 @@ input[type="reset"] {
     letter-spacing: 1.8px;
     font-style: italic;
     font-weight: 600;
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    -webkit-box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+            box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     
     
     
@@ -515,7 +556,10 @@ input[type="reset"] {
 @media (max-width: 800px) {
     #flex-container,
     #flex-container-images {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 }
 
@@ -542,7 +586,10 @@ input[type="reset"] {
 /* Responsive layout - makes a one column layout instead of a two-column layout */
 @media (max-width: 800px) {
     #flex-container {
-    flex-direction: column;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
     }
 }
 
@@ -580,4 +627,3 @@ input[type="reset"] {
 }
 
 }
-
