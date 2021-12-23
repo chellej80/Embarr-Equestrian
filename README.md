@@ -32,7 +32,7 @@ Site Mockup
 
 - __Navigation Bar__
 
-  Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery and Sign Up page and is identical in each page to allow for easy navigation. The navigation items are styled to transition to a hamburger menu when the site is reduced in size on a mobile device.
+  Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page and three sub pages - Coaching, Livery, EAL page and is identical in structure for each page to allow for easy navigation. When the user hovers over a one of the menu items it is highlighted. The navigation items are styled to transition to a hamburger menu when the site is reduced in size on a mobile device.
   This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the ‘back’ button. 
 <img src="media/Nav_1.jpg"><img src="media/Nav_2.PNG">
 
@@ -62,10 +62,39 @@ For the three sub pages - Coaching, Livery & EAL this section is displayed as a 
 
 - __Information Section - Contact Form/ Location__
 
-- This section is divided into two parts - the contact form will allow the user to submit a message to the business owner. All fields are set to required & the form when submitted will diplay the code institute form dump page.
+- On the landing page this section is divided into two parts - the contact form will allow the user to submit a message to the business owner. All fields are set to required & the form when submitted will diplay the code institute form dump page.
 
 - The location part of this section allows the user to interact with an embedded google map to locate the business. 
 <img src="media/info_footer.jpg">
 
+- The information sections for the three subpages is slightly different. For these pages the section contains an embedded youtube video & a testimonial block related to the page topic.
+<img src="media/livery_info_footer.jpg">
+
 - __The Footer__ 
 
+    - The footer section includes links to the relevant social media sites (Facebook, Twitter, youtube, Instagram) for Embarr Equestrian. The links will open to a new tab to allow easy navigation for the user. 
+    - The footer is valuable to the user as it encourages them to keep connected via social media
+    <img src="media/footer.PNG">
+
+
+### Features Left to Implement
+- Additional features 
+    - would be a booking form for events/ coaching/ EAL sessions and a pay online function.
+    - A dedicated 404 page 
+    - An automated slideshow of testimonials.
+    - A shop selling Embarr Equestrian branded merchadise
+
+## Testing
+
+### Validator Testing 
+
+### Unfixed Bugs
+
+## Deployment
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the GitHub repository, navigate to the Settings tab 
+  - From the source section drop-down menu, select the Master Branch
+  - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
+
+The live link can be found here - [Embarr Equestrian - Deployed Site Link](https://chellej80.github.io/Embarr-Equestrian/)
