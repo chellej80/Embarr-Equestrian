@@ -25,7 +25,13 @@ Site Mockup
 
 ## User Stories
 
+- Joan (54) a housewife from Meath, owner of a sports horse, looking for a yard in Meath that she can board her horse at fulltime. She requires a quiet location where she can focus on training for competitions and where there is an on-site coach.
 
+- Deirdre (46) a school teacher from Kildare, seeking a new opportunity for self development, she wants to join up with like minded individuals to explore equine assisted learning in order to improve her empathy skills, she also would like to try it to see if it would be a suitable team activity for her pupils.
+
+- Niamh (25) a postgrad student and horse owner from Dublin, Niamh is a nervous rider that is seeking an undersanding coach that can work with her and her horse in order to overcome the nerves that are preventing her from competing.
+
+All of the above samples are of people that would seek a facility that would suit their requirements using google and/o social media. Testimonials about the facility and photographs of the yard would be a plus for these people when viewing the site, also a video of a tour of the facilities would also be a positive element as they can get an idea of the place/ location without before deciding to arrange a visit. 
 
 
 
@@ -258,6 +264,8 @@ All content was written by the project owner
 ### Media
 
 All images with the exception of the hero image (purchased from Shutterstock) are images taken by the project owner and her family     
+
+The youtube videos do not belong nor were created by me, they are simply a tool to showcase how a video can be embedded.
 
 
 # Deployment
