@@ -44,7 +44,7 @@ Site Mockup
 - __Logo__
 
     The logo I created simply using a combination of text and a font awsome icon. The logo is a hyperlink that takes the user to the homepage.
-    <img src="assets/media/logo.jpg>
+    <img src="assets/media/logo".jpg>
 
 
 
@@ -53,6 +53,8 @@ Site Mockup
 The landing page includes a hero image of a horse with a text overlay 'About Us' to allow the user to quickly see exactly what the site is about.
 This section introduces the user to Embarr Equestrian with an eye catching hero image to grab their attention.
 <img src="assets/media/Index_hero_nav.jpg">
+
+- __The sub pages hero image__
 Each sub page - Coaching, Livery, EAL also have the same hero image in an opaque verision that also contains text overlay to allow the user to quickly ascertain what the service offered is and how to follow up with the business owner to discuss. 
 <img src="assets/media/coaching_hero.jpg">
 
@@ -65,9 +67,9 @@ This section on the landing page contains three clickable linked Images with tex
 For the three sub pages - Coaching, Livery & EAL this section is displayed as a manual slideshow gallery to showcase some of the activies Embarr Equestrian offers. The gallery has numbers in the top right corner so the user can see how many slides there are, the next & previous arrows have a hover effect.
 <img src="assets/media/livery_gallery.jpg">
 
-- __Information Section - Contact Form/ Location__
+- __Information Section__
 
-- On the landing page this section is divided into two parts - the contact form will allow the user to submit a message to the business owner. All fields are set to required & the form when submitted will diplay the code institute form dump page.
+- On the landing page this section is divided into two parts, the contact form and the location map - the contact form will allow the user to submit a message to the business owner. All fields are set to required & the form when submitted will diplay the code institute form dump page.
 
 - The location part of this section allows the user to interact with an embedded google map to locate the business. 
 <img src="assets/media/info_footer.jpg">
@@ -87,7 +89,7 @@ For the three sub pages - Coaching, Livery & EAL this section is displayed as a 
     - would be a booking form for events/ coaching/ EAL sessions and a pay online function.
     - A dedicated 404 page 
     - An automated slideshow of testimonials.
-    - A shop selling Embarr Equestrian branded merchadise
+    - A shop selling Embarr Equestrian branded merchandise
 
 ## Languages Used
 
@@ -100,7 +102,7 @@ For the three sub pages - Coaching, Livery & EAL this section is displayed as a 
 - [Git/ Github](https://github.com/) - Git/Github was used for version control, storage and deployment of the project.
 - [Font awesome](https://fontawesome.com/) - Font awesome icons were used throughout the site and for the logo creation.
 - [Google Fonts](https://fonts.google.com/) - Were used to import the Merriweather font used throughout the site.
-- [Font awesome](https://fontawesome.com/)
+- [Font awesome](https://fontawesome.com/) - Was used to link to the icons used across all the pages
 - [Hover: CSS](https://www.w3schools.com/cssref/sel_hover.asp) - Was used to created the pop effect for the linked three images on the landing page and the colour hover effect in navigation menu & slideshow next/prev arrows.
 - [Javascript](https://www.w3schools.com/w3css/w3css_slideshow.asp) - JS script was used to action the manual slideshow function.
 - [Squoosh](https://squoosh.app/) - This was used to prepare the images for web optimisation
@@ -142,14 +144,6 @@ I tested that all hover effects were working for the nav menu/ the image text ov
 
 I tested the slideshow Gallery function on all three sub pages to ensure that they were functioning as expected in Desktop/ mobile/ ipad
 
-### Responsiveness
-
-I used chrome developer tools, [Techsini](http://techsini.com/multi-mockup/index.php) & [ami](http://ami.responsivedesign.is/#) throughout all development of the site to ensure that it was responding to all devices down to 300px - 360px width
-
-I tested the site responsiveness on my iphone/ ipad and my family/ friends android mobile devices to ensure the site was rendering and functional across a range of devices.
-
-
-
 ### Performance
 
 I ran the site through the lighthouse performance tool for developers: 
@@ -158,9 +152,19 @@ I ran the site through the lighthouse performance tool for developers:
 
 Given more time I would look at the passive listeners to improve scrolling performance, and also the images/ youtube videos in order to improve the performance score
 
+### Responsiveness
+
+I used chrome developer tools, [Techsini](http://techsini.com/multi-mockup/index.php) & [ami](http://ami.responsivedesign.is/#) throughout all development of the site to ensure that it was responding to all devices down to 300px - 360px width
+
+I tested the site responsiveness on my iphone/ ipad and my family/ friends android mobile devices to ensure the site was rendering and functional across a range of devices.
+
+
+
+
+
 
 ### CSS Code Validation
-I ran the CSS Code through the follwoing validator:
+I ran the CSS Code through the following validator:
 [Jigsaw](https://jigsaw.w3.org/css-validator)
 
 There were no errors detected
@@ -168,7 +172,7 @@ There were no errors detected
 
 ### HTML Code Validation
 
-I ran the HTML Code through the follwoing validator:
+I ran the HTML Code through the following validator:
 [Jigsaw](https://jigsaw.w3.org/css-validator)
 
 - Index Page results:
@@ -176,14 +180,14 @@ I ran the HTML Code through the follwoing validator:
 
 - Sub pages (Coaching/ Livery/EAL) results:
 Some small errors were found but I fixed and tested again.
-One small warning persists across these pages, if I had I would explore this further to resolve that section.
+One small warning persists across these pages, if I had more time I would explore this further to resolve that section.
 <img src="assets/media/warning_html.PNG">
 
 
 
 ### Autoprefixer CSS
 
-I ran the code through the [Autoprefixer] (https://autoprefixer.github.io/) and copied the parsed css back into my project.
+I ran the code through the [Autoprefixer](https://autoprefixer.github.io/) and copied the parsed CSS back into my project.
 
 ### Unfixed Bugs
 
@@ -238,7 +242,7 @@ I ran the code through the [Autoprefixer] (https://autoprefixer.github.io/) and 
 
 ### Gallery Slideshow 
 
-- Javascript code taken from [w3schools]((https://www.w3schools.com/w3css/w3css_slideshow.asp))
+- Javascript code taken from [w3schools](https://www.w3schools.com/w3css/w3css_slideshow.asp)
 
 ### Content
 
