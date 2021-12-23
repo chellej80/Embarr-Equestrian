@@ -6,10 +6,11 @@
         <meta name="description" content="Embarr Equestrian, Equestrian Centre in Co.Meath" />
         <meta name="keywords" content="Equestrian, Riding Lessons, EAL, Livery, Ireland, Meath" />
         <title>Embarr Equestrian</title>
-        <link rel="stylesheet" href="assets/css/style.css" />
+        <link rel="stylesheet" href="assets/css/style.css" /> <!--link css stylesheet-->
     </head>
     
     <body>
+        <!--Header - Added logo and nav items-->
         <header class="header">
             <a href="index.html" class="logo"><i class="fas fa-horse-head"></i> Embarr Equestrian</a>
             <input class="menu-btn" type="checkbox" id="menu-btn" />
@@ -21,7 +22,7 @@
                 <li><a href="coaching.html">Coaching</a></li>
            </ul>
         </header>
-
+        <!--Create hero image and cover text-->
         <section id="hero-outer">
             <div id="hero-image"></div>
             <div id="cover-text">
@@ -36,6 +37,7 @@
                    </h5>
                 </div>
         </section>
+        <!-- Section 2 -Add three images of equal size that are links to the three subsections-->
         <section class="row">
             <div id="flex-container-images">
                 <div class="image-column pop">
@@ -63,14 +65,13 @@
             </div>
         </section>
 
+        <!-- Section 3 the information section - Contact form and location map-->
         <section class="row">
             <div id="flex-container">
             <div class="info-container ">
                 
                     <h2><i class="fas fa-envelope-open-text"></i><a id="contact-us"></a> Contact Us</h2><br>
-                    
-                    
-
+                    <!--Contact form-->               
                     <form method="POST" action="https://formdump.codeinstitute.net/">
                         <label for="fname">First Name</label><br>
                         <input type="text" id="fname" name="firstname" required="required" /><br>
@@ -93,18 +94,18 @@
                     </form>
                     
                 </div>
-
+                <!--embed google maps-->
                 <div class="info-container">
                     <h2><i class="fas fa-search-location"></i> Our Location</h2><br>
 
-                    <iframe class="gmap_canvas" src="https://maps.google.com/maps?q=kilcloon&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
+                    <iframe class="canvas" src="https://maps.google.com/maps?q=kilcloon&t=&z=13&ie=UTF8&iwloc=&output=embed"></iframe>
 
-                   <!-- <a href="https://www.embedgooglemap.net">embedgooglemap.net</a>-->
+                   
                 </div>
                 
             </div>
         </section>
-
+        <!--footer- insert social media links into footer-->
         <footer class="row">
 
             <ul class="social-networks">
@@ -124,7 +125,7 @@
         </footer>
         
     
-    <!-- font awesome script-->
+    <!-- Import font awesome script-->
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
     
     </body>

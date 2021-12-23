@@ -6,23 +6,26 @@
     border: none;
 }
 
+/*set font poperties for all pages*/
 body,
-.header {
+header {
     font-family: Merriweather, Oswald;
     font-weight: 300;
     color: #002980;
 }
 
+
 a {
-    color: inherit;
+    color: inherit; /* anchor tags will inherit the font properties*/
 }
 
 /* Logo & header styles */
 
-h1 h3 {
-    color: #002980;
+h1 h3 h4 h5 {
+    color: #002980; /*set color for all headings*/
 }
 
+/*style the header */
 .header {
     background-color: #fff;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
@@ -31,6 +34,7 @@ h1 h3 {
     z-index: 3;
 }
 
+/*style the headers unordered list of nav items*/
 .header ul {
     margin: 0;
     padding: 0;
@@ -46,6 +50,8 @@ h1 h3 {
     text-decoration: none;
 }
 
+/*set a hover color to appear over nav links in header*/
+
 .header li a:hover,
 .header .menu-btn:hover {
     background-color: #d6f185d0;
@@ -59,7 +65,8 @@ h1 h3 {
     text-decoration: none;
 }
 
-/* menu */
+/* style the responsive menu - updates to hamburger menu for smaller screens
+    code Reference: https://codepen.io/mutedblues/pen/MmPNPG*/
 
 .header .menu {
     clear: both;
@@ -67,12 +74,10 @@ h1 h3 {
     transition: max-height 0.2s ease-out;
 }
 
-/* menu icon code Ref: https://codepen.io/mutedblues/pen/MmPNPG */
+
 
 .header .menu-icon {
     cursor: pointer;
-    /*display: inline-block;*/
-
     float: right;
     padding: 28px 20px;
     position: relative;
@@ -106,7 +111,7 @@ h1 h3 {
     top: -5px;
 }
 
-/* menu button */
+/* Style the menu button */
 
 .header .menu-btn {
     display: none;
@@ -133,22 +138,23 @@ h1 h3 {
     top: 0;
 }
 
-/* hero image and cover text */
+/* style hero images and cover text */
 
 #hero-outer {
     display: flex;
-    /*flex-direction: row wrap;*/
     position: relative;
     width: 100%;
     overflow: hidden;
 }
 
+/*style hero image for Index page*/
 #hero-image {
     height: 650px;
     width: 100%;
     background: url("../images/hero_image_horse_field.webp") no-repeat center center;
 }
 
+/*style hero image for the three sub pages - add opacity*/
 #hero-image-child {
     height: 550px;
     width: 100%;
@@ -160,14 +166,12 @@ h1 h3 {
 }
 
 
-
+/*style the cover text that appears as an overlay on all hero images across the site*/
 #cover-text {
     color: #002980;
     font-size: 100%;
     font-family: Merriweather, Oswald;
-    letter-spacing: 3px;
-    
-   
+    letter-spacing: 3px;  
     width: 750px;
     height: auto;
     margin-top: 20px;
@@ -180,10 +184,10 @@ h1 h3 {
 }
 
 #cover-text h2 {
-    text-transform: uppercase;
+    text-transform: uppercase; /*transforms the cover text headings to Uppercase*/
 }
 
-
+/*style the order lists that appear in the cover text hero image overlay*/
 
 ol {
     display: block;
@@ -202,30 +206,32 @@ ol li {
     
 }
 
-/*flex container for three images on Index page */
+/*create a flex container for the three linked images on Index page */
 
 #flex-container-images {
     display: flex;
-    
     margin: auto;
     position: relative;
     overflow: hidden;
 }
 
+/*create a column container for the three linked images on the index page*/
+
 .image-column {
-    width: 33.33%;
-    position: relative;
+    width: 33.33%; /*set width of images*/
+    position: relative; /*position relative the the flex container*/
     overflow: hidden;
-    background-color: rgba(0, 0, 0, 0.5);
-    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px; /*add 3d box sadown affect*/
     margin: 10px;
-    cursor: pointer;
+    cursor: pointer; /*curser transforms to a pointer when hovering over the images*/
 }
 
+/*add a pop hover effect that actions when the mouse hovers over the images*/
 .pop:hover {
     transform: scale(1.1);
 }
 
+/*add an opaque color hover effect that action when the mouse clicks on the image text*/
 #image-1-text:hover, 
 #image-2-text:hover, 
 #image-3-text:hover
@@ -233,6 +239,7 @@ ol li {
     background-color: rgba(0, 0, 0, 0.356);
 } 
 
+/*style the text that overlays the three images on the index page*/
 #image-1-text, #image-3-text {
     color: #fff;
     font-size: 120%;
@@ -240,7 +247,6 @@ ol li {
     text-transform: uppercase;
     letter-spacing: 5px;
     width: 300px;
-    
     padding: 20px;
     bottom: 0;
     position: absolute;
@@ -253,13 +259,13 @@ ol li {
     text-transform: uppercase;
     letter-spacing: 5px;
     width: 300px;
-    
     padding: 20px;
     left: 0;
     position: absolute;
 }
 
-/*slideshow*/
+/*style the slideshow gallery for the three sub pages 
+Code Ref: https://www.w3schools.com/w3css/tryit.asp?filename=tryw3css_slideshow_self*/
 * {
     box-sizing: border-box;
 }
@@ -274,7 +280,7 @@ img {
     vertical-align: middle;
 }
 
-/* Slideshow container */
+/* Create and style the Slideshow container */
 .slideshow-container {
     max-width: 100%;
     position: relative;
@@ -284,7 +290,7 @@ img {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-/* Next & previous buttons */
+/* style the Next & previous buttons that appear on the manual gallery slideshow*/
 .prev,
 .next {
     cursor: pointer;
@@ -313,7 +319,7 @@ img {
     background-color: rgba(0, 0, 0, 0.356);;
 }
 
-/* Number text (1/3 etc) */
+/* style the gallery slideshow Number text (1/2 etc) */
 .numbertext {
     color: #f2f2f2;
     font-size: 15px;
@@ -324,23 +330,19 @@ img {
     background-color: rgba(0, 0, 0, 0.356);
 }
 
-.active,
-.dot:hover {
-    background-color: #717171;
-}
+
 
 /*Flex Container & info containers for the two information columns on index page - Form & Location Map*/
 
 #flex-container {
     display: flex;
-    /*flex-direction: row wrap;*/
+    
 }
 
 .info-container {
     font-family: Merriweather, Oswald;
     border-radius: 5px;
-    background: url("../images/field_crop.jpg") no-repeat center center;
-
+    background: url("../images/field_crop.jpg") no-repeat center center;/*set opaque image crop of hero image as the background for the container*/
     margin: 45px;
     width: 50%;
     height: 520px;
@@ -349,11 +351,12 @@ img {
     position: relative;
 }
 
+/*style the heading for the infomation containers e.g "contact us"*/
 .info-container h2 {
     margin: 10px;
 }
 
-/*style the form */
+/*style the form*/
 
 form {
     margin: 0px 10px 10px 10px;
@@ -371,7 +374,6 @@ option {
     border-radius: 4px;
     box-sizing: border-box;
     margin: 5px 5px 5px 0px;
-
     resize: none;
     overflow: auto;
 }
@@ -387,7 +389,9 @@ input[type="reset"] {
     cursor: pointer;
 }
 
-.gmap_canvas {
+/*style the container for the google map & youtube videos*/
+
+.canvas {
     position: relative;
     height: 90%;
     width: 100%;
@@ -400,7 +404,7 @@ input[type="reset"] {
 }
 
 
-
+/*style the text block for the testimonials */
 
 #article-text {
 
@@ -414,27 +418,11 @@ input[type="reset"] {
     letter-spacing: 1.8px;
     font-style: italic;
     font-weight: 600;
-    
     box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
     
     
     
 }
-
-
-
-@media (max-width: 450px) {
-
-    article {
-
-        padding: 0px 20px 40px 20px;
-        font-size: x-small;
-    
-}
-
-}
-
-
 
 
 
@@ -487,7 +475,7 @@ input[type="reset"] {
     }
 }
 
-
+/*add style for cover text for screens under 950px*/
 
 @media (max-width: 348px) {
     #cover-text,
@@ -524,7 +512,7 @@ input[type="reset"] {
     }
 }
 
-/* Responsive layout for index images- makes a one column layout */
+/* style responsive layout for the three images on the index page- makes a one column layout */
 @media (max-width: 800px) {
     #flex-container,
     #flex-container-images {
@@ -535,16 +523,15 @@ input[type="reset"] {
 /* Responsive layout for all images - makes a one column layout  */
 @media (max-width: 800px) {
     .image-column,
-    /*.image-column-child,*/
-    #hero-image,
-    #hero-image-child {
+    #hero-image
+                     {
         width: 100%;
         margin: auto;
         margin-bottom: 10px;
     }
 }
 
-/*moves text location for the centre image on index pg to bottom*/
+/*moves text location for the centre image on index page to bottom*/
 
 @media (max-width: 800px) {
     #image-2-text {
@@ -579,6 +566,19 @@ input[type="reset"] {
         
       
     }
+
+}
+
+/*add media queries for responisiveness for the article text block*/
+
+@media (max-width: 450px) {
+
+    #article-text {
+
+        padding: 0px 20px 40px 20px;
+        font-size: x-small;
+    
+}
 
 }
 
