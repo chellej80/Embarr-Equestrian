@@ -90,17 +90,26 @@ For the three sub pages - Coaching, Livery & EAL this section is displayed as a 
 - CSS
 - Javascript
 
-## Frameworks, libaries and technologies used
+## Frameworks, Libaries and technologies used
 
-- [Git/ Github](https://github.com/)
+- [Git/ Github](https://github.com/) - Git/Github was used for version control, storage and deployment of the project.
+- [Font awesome](https://fontawesome.com/) - Font awesome icons were used throughout the site and for the logo creation.
+- [Google Fonts](https://fonts.google.com/) - Were used to import the Merriweather font used throughout the site.
 - [Font awesome](https://fontawesome.com/)
-- [Google Fonts](https://fonts.google.com/)
-- [Font awesome](https://fontawesome.com/)
-- [Hover: CSS](https://www.w3schools.com/cssref/sel_hover.asp)
-- [Javascript](https://www.w3schools.com/w3css/w3css_slideshow.asp)
-- [Squoosh](https://squoosh.app/)
-- [Photojoiner](https://www.photojoiner.net/)
-- [3D Paint](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99#activetab=pivot:overviewtab)
+- [Hover: CSS](https://www.w3schools.com/cssref/sel_hover.asp) - Was used to created the pop effect for the linked three images on the landing page and the colour hover effect in navigation menu & slideshow next/prev arrows.
+- [Javascript](https://www.w3schools.com/w3css/w3css_slideshow.asp) - JS script was used to action the manual slideshow function.
+- [Squoosh](https://squoosh.app/) - This was used to prepare the images for web optimisation
+- [Photojoiner](https://www.photojoiner.net/) - This was used to join multiple images together for the gallery slideshows on the three sub pages.
+- [3D Paint](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99#activetab=pivot:overviewtab) - This was used to crop and add filters to the images.
+
+## Credits
+
+- Header & Navigation: 
+[Responsive header & Navigation Menu](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp) tutorial from W3schools.
+-
+
+
+
 
 
 ## Testing
