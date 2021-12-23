@@ -241,7 +241,7 @@ I ran the code through the [Autoprefixer](https://autoprefixer.github.io/) and c
 
 ### Unfixed Bugs
 
-
+I have come across no known bugs to report
 
 ## Credits
 
@@ -312,7 +312,7 @@ The youtube videos do not belong nor were created by me, they are simply a tool 
   - From the source section drop-down menu, select the Master Branch
   - Once the master branch has been selected, the page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment. 
 
-  - On submission the project is forked to by forking the project I will make a copy of the original repository that can be viewed without affecting the original repository by following these steps: In the GitHun repository, locate the settings, above this is the option to 'fork', select this to create a copy
+  - On submission the project is forked to by forking the project I will make a copy of the original repository that can be viewed without affecting the original repository by following these steps: In the GitHub repository, locate the settings, above this is the option to 'fork', select this to create a copy
 
   - To create a clone in the repository select 'clone'
 
