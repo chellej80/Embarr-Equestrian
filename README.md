@@ -84,6 +84,25 @@ For the three sub pages - Coaching, Livery & EAL this section is displayed as a 
     - An automated slideshow of testimonials.
     - A shop selling Embarr Equestrian branded merchadise
 
+## Languages Used
+
+- HTML
+- CSS
+- Javascript
+
+## Frameworks, libaries and technologies used
+
+- [Git/ Github](https://github.com/)
+- [Font awesome](https://fontawesome.com/)
+- [Google Fonts](https://fonts.google.com/)
+- [Font awesome](https://fontawesome.com/)
+- [Hover: CSS](https://www.w3schools.com/cssref/sel_hover.asp)
+- [Javascript](https://www.w3schools.com/w3css/w3css_slideshow.asp)
+- [Squoosh](https://squoosh.app/)
+- [Photojoiner](https://www.photojoiner.net/)
+- [3D Paint](https://www.microsoft.com/en-us/p/paint-3d/9nblggh5fv99#activetab=pivot:overviewtab)
+
+
 ## Testing
 
 ### Validator Testing 
