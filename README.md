@@ -25,7 +25,7 @@ Site Mockup
 
 ## User Stories
 
-### First Time USer 
+### First Time User 
 
 - As a first time visitor I want to understand the main purpose of the site and learn more about the business
 - I want to be able to navigate the site easily 
@@ -35,7 +35,7 @@ Site Mockup
 - I want to see testimonials see links to their social media accounts so I can decide if they are trustworthy and if it is worth trying their services
 
 
-### As a returning visitor
+### Returning/ Regular Visitor
 
 - I would like to see an events page / booking form and up to date information/ images, current content not out of date.
 - I would like to see a newsletter subscription offer 
@@ -118,10 +118,12 @@ For the three sub pages - Coaching, Livery & EAL this section is displayed as a 
 
 ### Features Left to Implement
 - Additional features 
+    - Events Page 
     - would be a booking form for events/ coaching/ EAL sessions and a pay online function.
     - A dedicated 404 page 
     - An automated slideshow of testimonials.
     - A shop selling Embarr Equestrian branded merchandise
+    - Newsletter subscription
 
 ## Languages Used
 
@@ -190,7 +192,23 @@ I used chrome developer tools, [Techsini](http://techsini.com/multi-mockup/index
 
 I tested the site responsiveness on my iphone/ ipad and my family/ friends android mobile devices to ensure the site was rendering and functional across a range of devices.
 
+#### 945px sample:
+<img src=assets/media/w945_1.jpg width="300px">
 
+### 320px sample:
+<img src=assets/media/w320_1.jpg width="300px">
+<img src=assets/media/w320_2.jpg width="300px">
+
+### iphone sample:
+<img src=assets/media/w_iphone_x.jpg width="300px">
+
+### ipad sample:
+
+<img src=assets/media/ipad.jpg width="300px">
+<img src=assets/media/ipad_pro.jpg width="300px">
+
+### Pixel sample:
+<img src=assets/media/pixel.jpg width="300px">
 
 
 
