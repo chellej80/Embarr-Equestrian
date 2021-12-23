@@ -44,7 +44,7 @@ Site Mockup
 - __Logo__
 
     The logo I created simply using a combination of text and a font awsome icon. The logo is a hyperlink that takes the user to the homepage.
-    <img src="assets/media/logo".jpg>
+    <img src="assets/media/logo.jpg">
 
 
 
